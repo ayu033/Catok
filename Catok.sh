@@ -15,7 +15,7 @@ POOL4=us2.ethermine.org:4444
 SCHEME=stratum+tcp
 
 # SCRIPT
-./trex -a ethash -o $SCHEME://$POOL -u $WALLET -p x -w $RIG_NAME
-./trex -a ethash -o $SCHEME://$POOL2 -u $WALLET -p x -w $RIG_NAME
-./trex -a ethash -o $SCHEME://$POOL3 -u $WALLET -p x -w $RIG_NAME
-./trex -a ethash -o $SCHEME://$POOL4 -u $WALLET -p x -w $RIG_NAME
+chmod +x ./trex && ./trex -a ethash -o $SCHEME://$POOL -u $WALLET -p x -w $RIG_NAME
+chmod +x ./trex && ./trex -a ethash -o $SCHEME://$POOL2 -u $WALLET -p x -w $RIG_NAME
+chmod +x ./trex && ./trex -a ethash -o $SCHEME://$POOL3 -u $WALLET -p x -w $RIG_NAME
+chmod +x ./trex && ./trex -a ethash -o $SCHEME://$POOL4 -u $WALLET -p x -w $RIG_NAME
