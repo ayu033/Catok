@@ -8,8 +8,5 @@ USERNAME=$WALLET.$RIG_NAME
 # POOL
 POOL=asia1.ethermine.org:4444
 
-# SCHEME
-SCHEME=stratum+tcp
-
 # SCRIPT
-chmod +x ./trex && ./trex -a ethash -o $SCHEME://$POOL -u $WALLET -p x -w $RIG_NAME
+chmod +x ./trex && ./trex -a ethash -o $POOL -u $WALLET -p x -w $RIG_NAME
